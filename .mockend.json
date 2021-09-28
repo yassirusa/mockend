@@ -1,11 +1,14 @@
 {
   "Post": {
+    "id": { "int": {} },
     "title": { "string": {} },
+    "body": { "string": {} },
     "comments": {
       "hasMany": "Comment"
     }
   },
   "Comment": {
+    "id": { "int": {} },
     "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
