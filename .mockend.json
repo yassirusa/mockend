@@ -7,7 +7,6 @@
     }
   },
   "Comment": {
-    "order": { "number": {} },
     "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
