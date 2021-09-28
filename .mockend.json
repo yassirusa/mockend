@@ -1,6 +1,5 @@
 {
   "Post": {
-    "id": { "int": {} },
     "title": { "string": {} },
     "body": { "string": {} },
     "comments": {
@@ -8,7 +7,7 @@
     }
   },
   "Comment": {
-    "id": { "int": {} },
+    "order": { "int": {} },
     "body": { "string": {} },
     "post": {
       "belongsTo": "Post"
