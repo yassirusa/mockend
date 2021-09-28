@@ -20,8 +20,7 @@
   "Person": {
     { "firstName": { "regexp": "[A-Z][a-z]{5,10}" } },
     { "lastName": { "regexp": "[A-Z][a-z]{5,10}" } },
-    { "City": { "regexp": "[A-Z][a-z]{5,10}" } },
-
+    { "City": { "regexp": "[A-Z][a-z]{5,10}" } }
 },
   "City": {
     { "name": { "regexp": "[A-Z][a-z]{5,10}" } }
